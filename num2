@@ -1,0 +1,31 @@
+let fName = "Михаил"
+let lName = "Куликов"
+let age = 16
+let city = "Горно-Алтайск"
+let street = "Пригородная"
+let vse = ("\n\t\(fName)\n\t\(lName)\n\t\(age)\n\t\(city)\n\t\(street)")
+
+print (vse)
+
+let s1 = "Приветствие"
+let s2 = "Мы"
+let s3 = "группа"
+let s4 = "1212"
+let s5 = "Рады "
+let s6 = "вам"
+let s7 = "всем "
+let s = ("\n\t\(s1)\n\(s2) \(s3) \(s4)\n\(s5) \(s6) \(s7)")
+
+print(s)
+
+let имя = "Михаил"
+
+for буква in имя {
+print(буква)
+}
+
+let a = 20
+let d = "Двадцать "
+let f = d + "- " + String(a)
+
+print(f)
