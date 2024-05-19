@@ -1,0 +1,30 @@
+
+let iMi = Int.min
+let iMa = Int.max
+let ui = UInt.min
+let uM = UInt.max
+let fMi = Float.leastNonzeroMagnitude
+let fMa = Float.greatestFiniteMagnitude
+let dMi = Double.leastNonzeroMagnitude
+let dMa = Double.greatestFiniteMagnitude
+
+print(" min = \(iMi), max = \(iMa)")
+print(" min = \(uMi), max = \(uMa)")
+print(" min = \(fMi), max = \(fMa)")
+print(" min = \(dMi), max = \(dMa)")
+
+typealias s = (f: String, g: Int)
+let p: [s] = [
+    ("торт", 1),
+    ("печенье", 2),
+    ("вафля", 7) ]
+for s in p{
+print ("\(s.f) - \(s.g)")
+}
+
+let s: String = "Привет"
+let i: Int = 1212
+let f: Float = 3.32
+let d: Double = 3.45354354
+
+print ((s),(i),"\n",(f),(d))
